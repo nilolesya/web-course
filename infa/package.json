@@ -3,9 +3,11 @@
   "packageManager": "yarn@4.18.1",
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "lint":"eslint./src"
+    "lint": "eslint./src",
+    "lint:fix": "lint --fix"
   },
   "devDependencies": {
+    "jiti": "^2.7.0",
     "typescript": "6.0.3"
   }
 }
